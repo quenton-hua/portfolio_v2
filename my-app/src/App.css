@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.page-content{
+
+}
+
+
+.page-content > div{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.05);
+}
+
+.footer{
+  background-color: #010127;
+  padding: 100px;
+
+}
+
+
+.footer p{
+  color: gray;
+}
+
+
+
+

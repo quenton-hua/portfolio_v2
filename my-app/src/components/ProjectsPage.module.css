@@ -1,0 +1,46 @@
+section.projects{
+ 
+    padding: 3em;
+    margin:0;
+    
+}
+
+
+
+.project-cards-section > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.project-cards-section > div > div.divider{
+    height: 2px;
+    width: 900px;
+    background-color: #03045e;
+    border-radius: 1em;
+
+}
+
+
+@media (max-width: 1170px){
+    .project-cards-section > div > div.divider{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+
+
+.project-cards-section > div > div.divider{
+    display: none;
+}
+
+section.projects{
+    padding: 2em;
+}
+
+
+}

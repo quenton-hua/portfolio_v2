@@ -1,0 +1,161 @@
+section.hero {
+  background-attachment: fixed;
+  background-position: right center; /* Adjust the position */
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-image: url("/src/assets/background.jpg");
+}
+
+section.hero .color-overlay {
+  padding: 5em 2em 5em 2em;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+/* Content Section */
+
+.content-section {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 30em;
+}
+
+section.hero h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -2px;
+  margin-bottom: 36px;
+
+  z-index: 1;
+}
+
+section.hero strong {
+  position: relative;
+}
+
+section.hero strong::before {
+  /* Highlight color */
+  background-color: #9fa0ff;
+
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 15%;
+  left: 0px;
+  bottom: 0;
+  z-index: 1;
+
+}
+
+section.hero h2 {
+  line-height: 1;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+section.hero h2.subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  color: #8b8df8;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+section.hero .content-section > div > div {
+  line-height: 1.5;
+
+  margin-bottom: 64px;
+  color: #2a2a61;
+}
+
+section.hero .resume-button {
+  padding: 10px 50px;
+
+  background-color: #484bf1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+section.hero .resume-button:hover {
+  background-color: #3436b6;
+  transform: translateY(-5px);
+}
+
+@media (min-width: 768px) {
+  section.hero .resume-button {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+
+/* Picture Section */
+
+section.hero .picture-section {
+  position: relative;
+  width: 30em;
+  
+}
+
+section.hero .picture-section > div {
+  position: absolute;
+  width: 20em;
+  aspect-ratio: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 75px;
+  border: 10px solid #03045e;
+}
+
+section.hero .picture-section > div:first-child {
+  transform: translate(-50%, -50%) rotate(25deg);
+}
+
+section.hero .picture-section > div:not(:first-child) {
+  background-image: url("../assets/headshot.png");
+  background-size: 110%; /* Adjusts the size of the background image to cover the entire div */
+  background-position: center; /* Centers the background image */
+  border: 10px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+
+section.hero .picture-section > div:not(:first-child):hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+/* Mobile devices 768px and below  */
+@media (max-width: 768px) {
+  section.hero {
+    background-image: none;
+  }
+
+  section.hero .color-overlay {
+    flex-direction: column-reverse;
+  }
+
+  section.hero .color-overlay > div {
+  }
+
+  section.hero .color-overlay .content-section > div {
+    padding: 1em;
+  }
+
+  section.hero .picture-section {
+    height: 20em;
+  }
+
+  section.hero .picture-section > div {
+    width: 60%;
+  }
+}

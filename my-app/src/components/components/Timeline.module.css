@@ -1,0 +1,51 @@
+.job-card{
+  text-align: left;
+  padding: 0.75em;
+}
+
+.timeline-date{
+  text-align: left;
+}
+
+div.timeline{
+  margin-top: 2em;
+}
+
+.timeline img{
+  height: 60px;
+}
+
+
+.timeline h4{
+  font-size:24px;
+  font-weight: 600;
+  margin: 0;
+
+}
+
+
+
+.timeline-custom-css span{
+  box-shadow: none;
+  
+}
+
+.timeline-custom-css span:not(.skills-section) {
+  /* Your styles here */
+  color:rgb(95, 95, 95);
+}
+
+
+
+
+.timeline div.skills-section{
+
+  padding:0.5em 0px 0.5em 0px;
+  margin-bottom: 0.25em;
+  display:flex;
+  flex-wrap: wrap;
+  gap:0.25em;
+}
+
+
+

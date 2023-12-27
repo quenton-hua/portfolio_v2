@@ -1,0 +1,11 @@
+span.skillchip{
+    padding: 3px 20px;
+    border: none;
+    
+    border-radius: 1em;
+    color:rgb(255, 255, 255) !important;
+    background-color: #5567DD;
+    /* background-color: #4551ff; */
+}
+
+

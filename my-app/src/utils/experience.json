@@ -1,0 +1,32 @@
+[
+    {
+        "job-title": "Software Engineer Intern",
+        "company": "JPMC",
+        "skills": [
+            "Python",
+            "TensorFlow",
+            "Pandas",
+            "AWS SageMaker"
+        ],
+        "description": "Developed an advanced neural network by training it on a diverse set of over 100 client JSON documents. The data was parsed utilizing the Pandas Python library and the machine learning model was developed using TensorFlow alongside AWS Sagemaker, resulting in an prediction accuracy of 98%, significantly reducing the time required for clients to navigate and fill out forms. ",
+        "date": "Summer 2022",
+        "logo-file-name": "JPMCLogo",
+        "company-color": "#154C8A"
+    },
+    {
+        "job-title": "Software Engineer Intern",
+        "company": "HPE",
+        "skills": [
+            "Python",
+            "CentOS",
+            "Jenkins",
+            "TestRails",
+            "PostgreSQL"
+        ],
+        "description": "I led a project to enhance engineer efficiency and collaboration by creating a Slack bot. This bot streamlined our storage team's workflow by displaying live cluster info and enabling direct cluster reservations through Slack. Additionally, I developed over five Python test automation scripts using the TestRail API to ensure proper functionality of new software releases for the E1000 storage product. ",
+        "date": "Summer 2023",
+        "logo-file-name": "HPELogo",
+        "company-color": "#01A982"
+    }
+
+]

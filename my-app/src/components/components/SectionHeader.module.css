@@ -1,0 +1,26 @@
+.sectionheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionheader h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sectionheader .left-border,.sectionheader .right-border{
+    margin: 0px 0.5em 0px 0.5em;
+    width: 5em;
+    height: 0.25em;
+    background-color: #03045e;
+}
+
+
+.sectionheader .left-border{
+    border-radius: 1em 0 0 1em;
+}
+
+.sectionheader .right-border{
+    border-radius: 0 1em 1em 0;
+}

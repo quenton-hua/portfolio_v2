@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Boba Tea Website",
+        "skills": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React.js",
+            "PostgreSQL"
+        ],
+        "description": "This website was built for CSCE 331 as an improved website for ShareTea. This website allows customers and employees to place orders through an intuitive and accessibility friendly interface. Employees can check current stock of ingredients and adjust prices for menu items. Trends can also be viewed by the manager displaying order statistics such as popular combinations of boba drinks, sales reports, and more. ",
+        "date": "Nov 2023 - Dec 2023",
+        "img-file-name": "placeholder.png",
+        "gif-file-name": "placeholder.gif",
+        "video-file-name": "placeholder.mp4",
+        "github-link": "https://github.com/user/project1",
+        "demo-link": "https://www.project1demo.com",
+        "featured": true
+    },
+    {
+        "name": "Test",
+        "skills": [
+            "Python",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date": "2023-01-01",
+        "img-file-name": "placeholder.png",
+        "gif-file-name": "placeholder.gif",
+        "video-file-name": "placeholder.mp4",
+        "github-link": "https://github.com/user/project1",
+        "demo-link": "https://www.project1demo.com",
+        "featured": true
+    },
+    {
+        "name": "Aggie Linux Shell",
+        "skills": [
+            "C++"
+        ],
+        "description": "Custom UNIX shell, made using C++ . Is capable of running basic shell commmands (cd,ls,cat,etc), piping commands, creating background processes, and more. Allows for customizable prompt.",
+        "date": "April 2023",
+        "img-file-name": "placeholder.png",
+        "gif-file-name": "placeholder.gif",
+        "video-file-name": "placeholder.mp4",
+        "github-link": "https://github.com/user/project1",
+        "demo-link": "https://www.project1demo.com",
+        "featured": true
+    }
+]

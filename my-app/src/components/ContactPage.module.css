@@ -1,0 +1,63 @@
+section.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+section.contact .content{
+    width: 100%;
+    background-color: #000135;
+    color:white;
+    padding-bottom: 50px;
+    margin-top: -1px;
+}
+
+
+section.contact .content p{
+    margin-top: 150px;
+    color:gray;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 50vw 100px 50vw;
+    border-color: transparent transparent #000135 transparent;
+    transform: rotate(0deg);
+ }
+
+
+ .contact-icons{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    gap:20px;
+
+ }
+
+
+ .contact-icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    transition: all 0.25s ease-in-out;
+}
+
+.contact-icons a:hover{
+    color: rgb(255, 255, 255, 0.5);
+}
+
+
+
+
+
+@media (max-width: 1170px) {
+    .triangle{
+       display: none;
+    }
+    section.contact .content{
+        padding-top: 50px;
+    }
+}
