@@ -1,37 +1,36 @@
 [
     {
-        "name": "Boba Tea Website",
+        "name": "Personal Website V2",
         "skills": [
+            "Figma",
             "JavaScript",
-            "HTML",
-            "CSS",
-            "React.js",
-            "PostgreSQL"
+            "Node.js",
+            "React.js"
         ],
-        "description": "This website was built for CSCE 331 as an improved website for ShareTea. This website allows customers and employees to place orders through an intuitive and accessibility friendly interface. Employees can check current stock of ingredients and adjust prices for menu items. Trends can also be viewed by the manager displaying order statistics such as popular combinations of boba drinks, sales reports, and more. ",
-        "date": "Nov 2023 - Dec 2023",
+        "description": "Updated personal portfolio website from vanilla JavaScript to React.js . This portfolio highlights my top projects and past work experiences as a software engineer. The design was prototyped using Figma.",
+        "date": "Dec 2023",
         "img-file-name": "placeholder.png",
         "gif-file-name": "placeholder.gif",
-        "video-file-name": "placeholder.mp4",
-        "github-link": "https://github.com/user/project1",
-        "demo-link": "https://www.project1demo.com",
+        "github-link": "https://github.com/quenton-hua/portfolio_v2",
+        "demo-link": "https://www.quentonhua.com",
         "featured": true
     },
     {
-        "name": "Test",
+        "name": "Boba Store Website",
         "skills": [
-            "Python",
+            "Express.js",
+            "Figma",
             "JavaScript",
-            "HTML",
-            "CSS"
+            "Node.js",
+            "PostgreSQL",
+            "React.js"
         ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "date": "2023-01-01",
-        "img-file-name": "placeholder.png",
+        "description": "This was built for CSCE 331 as an improved website for ShareTea. This website allows customers and employees to place orders through an intuitive and accessibility friendly interface. Employees can check current stock of ingredients and adjust prices for menu items. Trends can also be viewed by the manager displaying order statistics such as popular combinations of boba drinks, sales reports, and more. ",
+        "date": "Oct 2023 - Dec 2023",
+        "img-file-name": "bobastorewebsite.png",
         "gif-file-name": "placeholder.gif",
-        "video-file-name": "placeholder.mp4",
-        "github-link": "https://github.com/user/project1",
-        "demo-link": "https://www.project1demo.com",
+        "github-link": "https://github.com/quenton-hua/CSCE-331-Final-Project-Clone",
+        "demo-link": "https://sharetea-frontend.onrender.com/",
         "featured": true
     },
     {
@@ -43,7 +42,6 @@
         "date": "April 2023",
         "img-file-name": "placeholder.png",
         "gif-file-name": "placeholder.gif",
-        "video-file-name": "placeholder.mp4",
         "github-link": "https://github.com/user/project1",
         "demo-link": "https://www.project1demo.com",
         "featured": true
