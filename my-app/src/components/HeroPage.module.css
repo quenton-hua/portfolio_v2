@@ -8,7 +8,7 @@ section.hero {
 
 section.hero .color-overlay {
   padding: 5em 2em 5em 2em;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--heroSectionBGColor);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +24,9 @@ section.hero .color-overlay {
   width: 30em;
 }
 
+
+
+
 section.hero h1 {
   padding: 0px;
   margin: 0px;
@@ -33,6 +36,7 @@ section.hero h1 {
   margin-bottom: 36px;
 
   z-index: 1;
+  color: var(--heroSectionTitleColor) !important;
 }
 
 section.hero strong {
@@ -41,7 +45,7 @@ section.hero strong {
 
 section.hero strong::before {
   /* Highlight color */
-  background-color: #9fa0ff;
+  background-color: var(--heroSectionHighlightColor);
 
   content: "";
   position: absolute;
@@ -68,7 +72,7 @@ section.hero h2.subtitle {
   margin-bottom: 32px;
 }
 
-section.hero .content-section > div > div {
+section.hero .content-section > div > div > div {
   line-height: 1.5;
 
   margin-bottom: 64px;
@@ -114,7 +118,7 @@ section.hero .picture-section > div {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 75px;
-  border: 10px solid #03045e;
+  border: 10px solid var(--primaryColor);
 }
 
 section.hero .picture-section > div:first-child {

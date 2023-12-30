@@ -17,7 +17,7 @@ section.projects{
 .project-cards-section > div > div.divider{
     height: 2px;
     width: 900px;
-    background-color: #03045e;
+    background-color: var(--primaryColor);
     border-radius: 1em;
 
 }

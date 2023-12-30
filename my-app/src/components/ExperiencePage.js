@@ -8,7 +8,7 @@ function ExperiencePage(props) {
   return (
     <section className={styles["experience"]} id={props.id} >
       <SectionHeader headerText="Experience" />
-      <Timeline />
+      <Timeline selectedTheme={props.selectedTheme}  />
     
     </section>
   );

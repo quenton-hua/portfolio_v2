@@ -23,7 +23,15 @@ div.timeline{
 
 }
 
+.company-logo{
+  display: flex;
+}
 
+.company-logo > div {
+  background-color: var(--companyLogoBGColor);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
 .timeline-custom-css span{
   box-shadow: none;

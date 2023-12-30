@@ -1,18 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+
+  --pageBGColor:white;
+  /* Colors */
+  --primaryColor: #03045e;
+  --secondaryColor: #0077b6;
+  --tertiaryColor: #272727;
+  --quaternaryColor: gray;
+  --quinaryColor: black;
+
+  /* Navbar */
+  --navbarBGColor: rgba(255, 255, 255, 0.85);
+  --darkModeButtonBGColor:rgb(244, 244, 244);
+  --darkModeButtonHoverBGColor:rgb(232, 232, 232) ;
+
+  /* Hero Section */
+  --heroSectionBGColor: rgba(255, 255, 255, 0.2);
+  --heroSectionHighlightColor: #9fa0ff;
+  --heroSectionTitleColor: var(--primaryColor);
+
+  /* Section Header */
+
+  /* Projects Section */
+  --projectCardHoverBGColor: rgb(221, 238, 253);
+  /* Experience Section */
+
+  --heroSectionTitle-FS: 64px;
+  --heroSectionSubtitle-FS: 32px;
+  --sectionHeader-FS: 32px;
+  --paragraph-FS: 16px;
+  --companyLogoBGColor: rgb(221, 238, 253);
+
+  /* Contact Section */
+  --contactPageBGColor: #000135;
+}
+
+[data-theme="dark"] {
+  --pageBGColor: #191931;
+  /* Colors */
+  --primaryColor: #a1a3fc;
+  --tertiaryColor: #a1a3fc;
+  --quaternaryColor: #d0d1ff;
+  --quinaryColor: #dadaff;
+  /* Navbar */
+  --navbarBGColor: #131323;
+  --darkModeButtonBGColor: #191931;
+  --darkModeButtonHoverBGColor:#262649 ;
+
+  /* Hero Section */
+  --heroSectionBGColor: #191931;
+  --heroSectionTitleColor: #eeeeff;
+
+  /* Section Header */
+
+  /* Projects Section */
+  --projectCardHoverBGColor: #131323;
+  /* Experience Section */
+  --companyLogoBGColor: #d0d1ff;
+
+    /* Contact Section */
+    --contactPageBGColor: #131323;
+}
+
 body {
   height: 100%;
   margin: 0;
   color: #03045e !important;
   font-family: "Poppins", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue" ,
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: var(--heroSectionBGColor);
+  transition:background-color 0.25s ease-in-out, color 0.25s ease-in-out
 }
-
-
 
 h1,
 h2,
@@ -22,17 +84,18 @@ h5,
 h6 {
   padding: 0px;
   margin: 0px;
+  color: var(--heroSectionTitleColor) !important;
 }
 
-button{
-  font-size : 16px;
+button {
+  font-size: 16px;
 }
 
-p{
-  color:#272727;
+p {
+  color: var(--tertiaryColor) !important;
   padding: 0px;
   margin: 0px;
-  font-size: 16px;
+  font-size: var(--paragraph-FS) !important;
   font-weight: 400;
 }
 

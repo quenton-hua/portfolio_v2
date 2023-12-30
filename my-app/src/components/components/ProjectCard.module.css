@@ -1,164 +1,121 @@
+.project-card {
+  width: 65em;
+  min-height: 20em;
 
-
-
-.project-card{
-    
-    width: 65em;
-    min-height: 20em;
-
-
-    display:flex;
-    transition: all 0.5s ease-in-out;
-    border-radius: 1em;
-    margin: 1em 0em 1em 0em;
-    
-
+  display: flex;
+  border-radius: 1em;
+  margin: 1em 0em 1em 0em;
 }
 
-
-.project-card:hover{
-    background-color: rgb(221, 238, 253);
-
+.project-card:hover {
+  background-color: var(--projectCardHoverBGColor);
 }
 
-.project-card h4{
-    font-size:24px;
-    font-weight: 600;
-    margin: 0;
-
+.project-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
 }
 
-
-
-
-.project-card div.picture-section{
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    overflow: visible;
-    flex:1;
-
+.project-card div.picture-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  flex: 1;
 }
 
-
-.project-card div.content-section{
-    display:flex;
-    flex-direction: column;
-    text-align: left;
-    flex:1;
-    padding: 1em 2em 1em 2em;
+.project-card div.content-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex: 1;
+  padding: 1em 2em 1em 2em;
 }
 
-
-
-.project-card div.content-section div.desc-section{
-    flex:auto;
-    margin-bottom: 1em;
-   
+.project-card div.content-section div.desc-section {
+  flex: auto;
+  margin-bottom: 1em;
 }
 
-
-
-.project-card div.skills-section{
-
-    padding:0.5em 0px 0.5em 0px;
-    margin-bottom: 0.25em;
-    display:flex;
-    flex-wrap: wrap;
-    gap:0.25em;
+.project-card div.skills-section {
+  padding: 0.5em 0px 0.5em 0px;
+  margin-bottom: 0.25em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
 
-.project-card div.footer{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1em;
-
+.project-card div.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
 }
 
-.project-card div.footer span{
-    color: gray;
-    font-weight: 500;
+.project-card div.footer span {
+  color: var(--quaternaryColor);
+  font-weight: 500;
 }
 
-.project-card div.links-section{
-
-    display:flex;
-    align-self: flex-end;
-    gap:0.5em;
+.project-card div.links-section {
+  display: flex;
+  align-self: flex-end;
+  gap: 0.5em;
 }
 
-.project-card div.links-section.right{
-    justify-content: flex-end;
-
+.project-card div.links-section.right {
+  justify-content: flex-end;
 }
 
 .picture-section > div {
+  background-size: cover; /* Adjusts the size of the background image to cover the entire div */
+  background-position: center; /* Centers the background image */
+  width: 95%;
+  aspect-ratio: 1/0.562;
+  border-radius: 0.5em;
+  transition: transform 0.2s ease-in-out, background-image 0.5s ease-in-out;
 
-
-    background-size: cover; /* Adjusts the size of the background image to cover the entire div */
-    background-position: center; /* Centers the background image */
-    width: 95%;
-    aspect-ratio: 1/0.562;
-    border-radius: 0.5em;
-    transition: transform 0.2s ease-in-out, background-image 0.5s ease-in-out;
-    
-    cursor: pointer;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.picture-section > div:hover{
-    transform: scale(1.1);
-
+.picture-section > div:hover {
+  transform: scale(1.1);
 }
 
-
-
-.links-section > a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.5em;
-    transition: all 0.25s ease-in-out;
+.links-section > a {
+  text-decoration: none;
+  color: var(--quinaryColor);
+  font-size: 1.5em;
+  transition: opacity 0.25s ease-in-out;
 }
 
-.links-section > a:hover{
-    color: rgb(0, 0, 0, 0.5);
+.links-section > a:hover {
+  opacity: 0.5;
 }
 
-
-@media (max-width: 1170px){
-    .project-card{
-        width: 100%;
-    }
+@media (max-width: 1170px) {
+  .project-card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
-    .project-card{
-
-        aspect-ratio: 1;
-        background-color: rgb(221, 238, 253);
-        
-    }
-
-    .project-card div.picture-section{
-        background-color: purple;
-        display: none;
-    }
-
-
-
-    .project-card div.footer{
-
-        flex-direction: row !important;
-    
-    }
-
-    .project-card div.content-section div.desc-section{
-        overflow-y: auto;
-       
-    }
-    
+  .project-card {
+    aspect-ratio: 1;
+    background-color: rgb(221, 238, 253);
   }
 
+  .project-card div.picture-section {
+    background-color: purple;
+    display: none;
+  }
 
+  .project-card div.footer {
+    flex-direction: row !important;
+  }
+
+  .project-card div.content-section div.desc-section {
+    overflow-y: auto;
+  }
+}

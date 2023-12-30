@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar.js";
 import HeroPage from "./components/HeroPage.js";
@@ -12,15 +13,37 @@ import contactData from "./utils/contact.json";
 // import '@coreui/coreui/dist/css/coreui.min.css'
 
 function App() {
+  const [selectedTheme, setSelectedTheme] = useState("light");
+
+
+  useEffect(() => {
+    try {
+      if (localStorage.getItem("selectedTheme") === null) {
+        localStorage.setItem("selectedTheme", "light");
+      }
+      setSelectedTheme(localStorage.getItem("selectedTheme"));
+    } catch (e) {
+      console.log("no local storage");
+    }
+  }, []);
+
+    document.querySelector("body").setAttribute("data-theme", selectedTheme);
+
+
+    console.log(selectedTheme);
   return (
     <div className="App">
-      <NavBar id="navbar" />
+      <NavBar
+        id="navbar"
+        selectedTheme={selectedTheme}
+        setSelectedTheme={setSelectedTheme}
+      />
       <div className="page-content">
-        <HeroPage id="home" contactData={contactData}/>
+        <HeroPage id="home" contactData={contactData} />
         <div>
           <ProjectsPage id="projects" />
-          <ExperiencePage id="experience" />
-          <ContactPage id="contact" contactData={contactData}/>
+          <ExperiencePage id="experience" selectedTheme={selectedTheme} />
+          <ContactPage id="contact" contactData={contactData} />
         </div>
       </div>
     </div>
