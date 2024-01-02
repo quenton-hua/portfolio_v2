@@ -9,6 +9,8 @@ import styles from "./NavBar.module.css"; // Import CSS module
 
 function NavBar(props) {
   const [scrolled, setScrolled] = useState(false);
+  const [activeLink, setActiveLink] = useState("home"); // Default active link is 'home'
+
   const handleNavClick = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -19,6 +21,7 @@ function NavBar(props) {
         behavior: "smooth",
       });
     }
+    setActiveLink(sectionId); // Set the clicked link as active
   };
 
   function changeTheme() {
@@ -70,25 +73,33 @@ function NavBar(props) {
           <Nav>
             <Nav.Link
               onClick={() => handleNavClick("home")}
-              className={styles["nav-item"]}
+              className={`${styles["nav-item"]} ${
+                activeLink === "home" ? styles["active"] : ""
+              }`}
             >
               Home
             </Nav.Link>
             <Nav.Link
               onClick={() => handleNavClick("projects")}
-              className={styles["nav-item"]}
+              className={`${styles["nav-item"]} ${
+                activeLink === "projects" ? styles["active"] : ""
+              }`}
             >
               Projects
             </Nav.Link>
             <Nav.Link
               onClick={() => handleNavClick("experience")}
-              className={styles["nav-item"]}
+              className={`${styles["nav-item"]} ${
+                activeLink === "experience" ? styles["active"] : ""
+              }`}
             >
               Experience
             </Nav.Link>
             <Nav.Link
               onClick={() => handleNavClick("contact")}
-              className={styles["nav-item"]}
+              className={`${styles["nav-item"]} ${
+                activeLink === "contact" ? styles["active"] : ""
+              }`}
             >
               Contact
             </Nav.Link>

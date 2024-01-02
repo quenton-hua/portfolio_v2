@@ -34,6 +34,7 @@
 
   /* Contact Section */
   --contactPageBGColor: #000135;
+  --contactPageFooter: lightgray;
 }
 
 [data-theme="dark"] {
@@ -61,6 +62,7 @@
 
     /* Contact Section */
     --contactPageBGColor: #131323;
+    --contactPageFooter: #a1a3fc;
 }
 
 body {

@@ -5,6 +5,8 @@
 
 .timeline-date{
   text-align: left;
+  color:var(--quinaryColor) !important;
+  opacity: 100% !important;
 }
 
 div.timeline{
