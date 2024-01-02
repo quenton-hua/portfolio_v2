@@ -15,6 +15,8 @@
   --darkModeButtonBGColor:rgb(244, 244, 244);
   --darkModeButtonHoverBGColor:rgb(232, 232, 232) ;
 
+  --navbarDropDownBGColor: rgb(237, 237, 237);
+
   /* Hero Section */
   --heroSectionBGColor: rgba(255, 255, 255, 0.2);
   --heroSectionHighlightColor: #9fa0ff;
@@ -48,6 +50,8 @@
   --navbarBGColor: #131323;
   --darkModeButtonBGColor: #191931;
   --darkModeButtonHoverBGColor:#262649 ;
+
+  --navbarDropDownBGColor: #0e0e1a;
 
   /* Hero Section */
   --heroSectionBGColor: #191931;

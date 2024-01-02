@@ -30,7 +30,8 @@
 
 .navbar .container {
   padding: 0;
-  display: flex !important;
+  display: flex;
+
 }
 
 .scrolled {
@@ -70,12 +71,10 @@
   opacity: 0.75;
 }
 
-.nav-item.active{
+.nav-item.active {
   color: var(--quinaryColor);
   opacity: 0.75;
 }
-
-
 
 .right-section {
 }
@@ -131,24 +130,28 @@
 @media (max-width: 991.5px) {
   .navbar .container {
     padding: 1em;
-    background-color: white;
+    justify-content: space-between;
+    
   }
 
   .middle-section {
-    background-color: rgb(237, 237, 237);
+    background-color: var(--navbarDropDownBGColor);
   }
 
   .left-section {
-    order: -2;
-
+    order: -2;;
     justify-content: flex-start;
+    width: min-content;
   }
 
   .right-section {
     order: -1;
-    width: flex;
+    
     justify-content: flex-start;
-    display: none;
+    position: relative;
+    width: min-content;
+    margin-left: auto;
+    
   }
 }
 
