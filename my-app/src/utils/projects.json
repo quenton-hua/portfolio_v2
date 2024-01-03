@@ -29,7 +29,7 @@
         "description": "This was built for CSCE 331 as an improved website for ShareTea. This website allows customers and employees to place orders through an intuitive and accessibility friendly interface. Employees can check current stock of ingredients and adjust prices for menu items. Trends can also be viewed by the manager displaying order statistics such as popular combinations of boba drinks, sales reports, and more. ",
         "date": "Oct 2023 - Dec 2023",
         "img-file-name": "bobastorewebsite.png",
-        "gif-file-name": "bobastoredemo.gif",
+        "gif-file-name": "bobastorewebsite.png",
         "github-link": "https://github.com/quenton-hua/CSCE-331-Final-Project-Clone",
         "demo-link": "https://sharetea-frontend.onrender.com/",
         "featured": true
@@ -42,7 +42,7 @@
         "description": "Custom UNIX shell, made using C++ . Is capable of running basic shell commmands (cd,ls,cat,etc), piping commands, creating background processes, and more. Allows for customizable prompt.",
         "date": "April 2023",
         "img-file-name": "aggieshell.png",
-        "gif-file-name": "aggieshelldemo.gif",
+        "gif-file-name": "aggieshell.png",
         "github-link": "https://github.com/quenton-hua/Aggie-Shell",
         "demo-link": "none",
         "featured": true
