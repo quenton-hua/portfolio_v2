@@ -12,7 +12,6 @@
 }
 
 .project-card h4 {
-  font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
@@ -86,7 +85,6 @@
 .links-section > a {
   text-decoration: none;
   color: var(--quinaryColor);
-  font-size: 1.5em;
   transition: opacity 0.25s ease-in-out;
 }
 
@@ -102,13 +100,14 @@
 
 @media (max-width: 768px) {
   .project-card {
-    aspect-ratio: 1;
-    background-color: rgb(221, 238, 253);
+    background-color: var(--projectCardHoverBGColor);
+    margin: 0.5em 0 0.5em 0;
+    flex-direction: column !important;
+    padding-top: 1em;
   }
 
-  .project-card div.picture-section {
-    background-color: purple;
-    display: none;
+  .picture-section > div:hover {
+    transform: none;
   }
 
   .project-card div.footer {
@@ -116,6 +115,5 @@
   }
 
   .project-card div.content-section div.desc-section {
-    overflow-y: auto;
   }
 }

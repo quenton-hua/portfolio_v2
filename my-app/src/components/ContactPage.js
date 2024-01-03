@@ -38,7 +38,7 @@ function ContactPage(props) {
     <section id={props.id} className={styles["contact"]} ref={ref}>
       <div className={styles["triangle"]}></div>
       <div className={styles["content"]}>
-        <h2
+        <h3
           style={{
             transform: isInView ? "none" : "translatey(20px)",
             opacity: isInView ? 1 : 0,
@@ -46,7 +46,7 @@ function ContactPage(props) {
           }}
         >
           Contact
-        </h2>
+        </h3>
         <div className={styles["contact-icons"]}>
           {icons.map((item, index) => (
             <a

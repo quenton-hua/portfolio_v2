@@ -1,6 +1,6 @@
 .navbar {
   align-items: stretch;
-  font-size: 16px;
+
 
   height: 70px;
   /* position: -webkit-sticky;
@@ -125,6 +125,9 @@
 .new-navbar-items {
   display: flex;
   justify-content: center;
+}
+
+.nav-items-icons{
 }
 
 @media (max-width: 991.5px) {

@@ -30,7 +30,6 @@ section.hero .color-overlay {
 section.hero h1 {
   padding: 0px;
   margin: 0px;
-  font-size: 64px;
   line-height: 1;
   letter-spacing: -2px;
   margin-bottom: 36px;
@@ -60,7 +59,6 @@ section.hero strong::before {
 section.hero h2 {
   line-height: 1;
   font-weight: 300;
-  font-size: 24px;
   margin-bottom: 18px;
 }
 
@@ -106,7 +104,7 @@ section.hero .resume-button:hover {
 
 section.hero .picture-section {
   position: relative;
-  width: 30em;
+  width: clamp(20em, 30em, 30em);
   
 }
 
@@ -133,9 +131,9 @@ section.hero .picture-section > div:not(:first-child) {
   transition: 0.5s ease-in-out;
 }
 
-section.hero .picture-section > div:not(:first-child):hover {
+/* section.hero .picture-section > div:not(:first-child):hover {
   transform: translate(-50%, -50%) scale(1.1);
-}
+} */
 
 
 /* Mobile devices 768px and below  */
@@ -146,6 +144,7 @@ section.hero .picture-section > div:not(:first-child):hover {
 
   section.hero .color-overlay {
     flex-direction: column-reverse;
+
   }
 
   section.hero .color-overlay > div {
@@ -153,10 +152,16 @@ section.hero .picture-section > div:not(:first-child):hover {
 
   section.hero .color-overlay .content-section > div {
     padding: 1em;
+    width: 100%;
   }
 
   section.hero .picture-section {
-    height: 20em;
+    height: 15em;
+    
+  }
+
+  section.hero .content-section {
+    width: 100vw;
   }
 
   section.hero .picture-section > div {

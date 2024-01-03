@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-
-  --pageBGColor:white;
+  --pageBGColor: white;
   /* Colors */
   --primaryColor: #03045e;
   --secondaryColor: #0077b6;
@@ -12,8 +11,8 @@
 
   /* Navbar */
   --navbarBGColor: rgba(255, 255, 255, 0.85);
-  --darkModeButtonBGColor:rgb(244, 244, 244);
-  --darkModeButtonHoverBGColor:rgb(232, 232, 232) ;
+  --darkModeButtonBGColor: rgb(244, 244, 244);
+  --darkModeButtonHoverBGColor: rgb(232, 232, 232);
 
   --navbarDropDownBGColor: rgb(237, 237, 237);
 
@@ -37,6 +36,10 @@
   /* Contact Section */
   --contactPageBGColor: #000135;
   --contactPageFooter: lightgray;
+
+  /* Scrollbar */
+  --scrollbarTrackColor: #f1f1f1;
+  --scrollbarColor: #888;
 }
 
 [data-theme="dark"] {
@@ -49,7 +52,7 @@
   /* Navbar */
   --navbarBGColor: #131323;
   --darkModeButtonBGColor: #191931;
-  --darkModeButtonHoverBGColor:#262649 ;
+  --darkModeButtonHoverBGColor: #262649;
 
   --navbarDropDownBGColor: #0e0e1a;
 
@@ -64,9 +67,13 @@
   /* Experience Section */
   --companyLogoBGColor: #d0d1ff;
 
-    /* Contact Section */
-    --contactPageBGColor: #131323;
-    --contactPageFooter: #a1a3fc;
+  /* Contact Section */
+  --contactPageBGColor: #131323;
+  --contactPageFooter: #a1a3fc;
+
+  /* Scrollbar */
+  --scrollbarTrackColor: #0e0e1a;
+  --scrollbarColor: #dadaff;
 }
 
 body {
@@ -79,7 +86,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--heroSectionBGColor);
-  transition:background-color 0.25s ease-in-out, color 0.25s ease-in-out
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 }
 
 h1,
@@ -91,6 +98,22 @@ h6 {
   padding: 0px;
   margin: 0px;
   color: var(--heroSectionTitleColor) !important;
+}
+
+h1 {
+  font-size: 64px !important;
+}
+
+h2 {
+  font-size: 24px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+h4 {
+  font-size: 24px !important;
 }
 
 button {
@@ -113,4 +136,26 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  h4 {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
 }

@@ -7,6 +7,7 @@ import ExperiencePage from "./components/ExperiencePage.js";
 import ContactPage from "./components/ContactPage.js";
 import contactData from "./utils/contact.json";
 
+
 //TODO TEMP FIX
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +15,8 @@ import contactData from "./utils/contact.json";
 
 function App() {
   const [selectedTheme, setSelectedTheme] = useState("light");
-
+  const [navIconClicked, setNavIconClicked] = useState(false);
+  
 
   useEffect(() => {
     try {
@@ -30,13 +32,26 @@ function App() {
     document.querySelector("body").setAttribute("data-theme", selectedTheme);
 
 
-    console.log(selectedTheme);
+    useEffect(() => {
+      // Add/remove the "active" class based on navIconClicked
+      const pageContentDiv = document.querySelector(".page-content");
+      if (pageContentDiv) {
+        if (navIconClicked) {
+          pageContentDiv.classList.add("active");
+        } else {
+          pageContentDiv.classList.remove("active");
+        }
+      }
+    }, [navIconClicked]);
+
   return (
     <div className="App">
       <NavBar
         id="navbar"
         selectedTheme={selectedTheme}
         setSelectedTheme={setSelectedTheme}
+        navIconClicked={navIconClicked}
+        setNavIconClicked={setNavIconClicked}
       />
       <div className="page-content">
         <HeroPage id="home" contactData={contactData} />
