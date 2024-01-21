@@ -40,6 +40,8 @@
   /* Scrollbar */
   --scrollbarTrackColor: #f1f1f1;
   --scrollbarColor: #888;
+
+  --moreProjectsCardGradient: linear-gradient(180deg, rgba(221, 238, 253, 0.8) 0%, rgba(221, 238, 253, 0.95) 50%, rgba(221, 238, 253, 1) 100%);
 }
 
 [data-theme="dark"] {
@@ -74,6 +76,8 @@
   /* Scrollbar */
   --scrollbarTrackColor: #0e0e1a;
   --scrollbarColor: #dadaff;
+
+  --moreProjectsCardGradient: linear-gradient(180deg, rgba(19, 19, 35, 0.8) 0%, rgba(19, 19, 35, 0.95) 50%, rgba(19, 19, 35, 1) 100%);
 }
 
 body {

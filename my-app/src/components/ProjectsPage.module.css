@@ -1,46 +1,61 @@
-section.projects{
- 
-    padding: 3em;
-    margin:0;
-    
+section.projects {
+  padding: 3em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
-.project-cards-section > div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.project-cards-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.project-cards-section > div > div.divider{
-    height: 2px;
-    width: 900px;
-    background-color: var(--primaryColor);
-    border-radius: 1em;
-
+.project-cards-section > div > div.divider {
+  height: 2px;
+  width: 900px;
+  background-color: var(--primaryColor);
+  border-radius: 1em;
 }
 
-
-@media (max-width: 1170px){
-    .project-cards-section > div > div.divider{
-        width: 90%;
-    }
+.moreProjectsSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Creates 3 columns of equal width */
+  gap: 10px; /* Optional: Adds space between grid items */
 }
 
+.moreProjectsHeader {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 1em 2em 1em 2em;
+}
+
+.moreProjectsHeader .border {
+  margin: 0px 0.5em 0px 0.5em;
+  flex: 1;
+  height: 0.25em;
+  background-color: var(--primaryColor);
+}
+
+@media (max-width: 1170px) {
+  .project-cards-section > div > div.divider {
+    width: 90%;
+  }
+}
 
 @media (max-width: 768px) {
-    
 
+  .moreProjectsSection {
+    grid-template-columns: 1fr; /* Creates 3 columns of equal width */
+  }
 
-.project-cards-section > div > div.divider{
+  .project-cards-section > div > div.divider {
     display: none;
-}
+  }
 
-section.projects{
-    padding: 2em 0.5em 0 0.5em;
-}
-
-
+  section.projects {
+    padding: 2em 3em 0 3em;
+  }
 }

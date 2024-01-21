@@ -1,0 +1,84 @@
+.moreProjectsCard {
+ 
+  width: calc(65em / 3);
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+}
+
+.moreProjectsCard::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(1px);
+
+background: var( --moreProjectsCardGradient);
+  z-index: 0;
+}
+
+.moreProjectsCard .content {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* Add additional styling for your content here */
+  padding: 1em;
+}
+
+.moreProjectsCard .desc{
+    flex:auto
+}
+
+.moreProjectsCard  div.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+  
+}
+
+.moreProjectsCard div.footer span {
+  color: var(--quaternaryColor);
+  font-weight: 500;
+}
+
+.moreProjectsCard div.links-section {
+  display: flex;
+  align-self: flex-end;
+  gap: 0.5em;
+}
+
+.moreProjectsCard div.skills-section {
+    padding: 0.5em 0px 0.5em 0px;
+    margin-bottom: 0.25em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+  }
+
+.links-section > a {
+    text-decoration: none;
+    color: var(--quinaryColor);
+    transition: opacity 0.25s ease-in-out;
+  }
+  
+  .links-section > a:hover {
+    opacity: 0.5;
+  }
+
+
+  @media (max-width: 768px) {
+
+.moreProjectsCard{
+  width: auto;
+}
+  }

@@ -30,7 +30,7 @@
         "date": "Oct 2023 - Dec 2023",
         "img-file-name": "bobastorewebsite.png",
         "gif-file-name": "bobastorewebsite.png",
-        "github-link": "https://github.com/quenton-hua/CSCE-331-Final-Project-Clone",
+        "github-link": "https://github.com/csce-315-331-2023c/project-3-901_07",
         "demo-link": "https://sharetea-frontend.onrender.com/",
         "featured": true
     },
@@ -40,11 +40,81 @@
             "C++"
         ],
         "description": "Custom UNIX shell, made using C++ . Is capable of running basic shell commmands (cd,ls,cat,etc), piping commands, creating background processes, and more. Allows for customizable prompt.",
-        "date": "April 2023",
+        "date": "Apr 2023",
         "img-file-name": "aggieshell.png",
         "gif-file-name": "aggieshell.png",
         "github-link": "https://github.com/quenton-hua/Aggie-Shell",
         "demo-link": "none",
         "featured": true
+    },
+    {
+        "name": "Smart Mirror",
+        "skills": [
+            "Python"
+        ],
+        "description": "Voice-controlled smart mirror, built using a Raspberry Pi and multiple sensors, displaying the time, date, and weather, with user-proximity-based adjustable accent lighting.",
+        "date": "Nov 2023 - Dec 2023",
+        "img-file-name": "smartmirror.jpg",
+        "gif-file-name": "smartmirror.jpg",
+        "github-link": "none",
+        "demo-link": "https://drive.google.com/file/d/1sMuhx70BALazprvVxWkmHY2gmKjrg7cC/view?usp=sharing",
+        "featured": false
+    }
+    ,
+    {
+        "name": "Point of Sale Application",
+        "skills": [
+            "Java Swing",
+            "PostgreSQL"
+
+        ],
+        "description": "A point of sale application that enables employees to manage customer orders, update menu prices, track inventory stock, add new items, and allows managers to access business statistics.",
+        "date": "Sept 2023 - Oct 2023",
+        "img-file-name": "posapp.png",
+        "gif-file-name": "posapp.png",
+        "github-link": "https://github.com/csce-315-331-2023c/project-2-901_07",
+        "demo-link": "none",
+        "featured": false
+    }
+    ,
+    {
+        "name": "Reservation Slack Bot",
+        "skills": [
+            "Python", "Slack API"
+
+        ],
+        "description": "A Slack bot for Hewlett Packard Enterprise's ClustorStor team, streamlining storage device reservation and statistics viewing for over +10 engineers, using Python, Slack API, and an internal inventory database.",
+        "date": "Jul 2023 - Aug 2023",
+        "img-file-name": "hpeslackbot.jpg",
+        "gif-file-name": "hpeslackbot.jpg",
+        "github-link": "none",
+        "demo-link": "none",
+        "featured": false
+    },
+    {
+        "name": "Mental Health Tracker",
+        "skills": [
+            "JavaScript", "HTML", "CSS"
+        ],
+        "description": "Website enabling users to log their mood through a selection of 5 emoticons (happy to sad), tracking trends in their selections. This project won Tamuhack 2022's Best Hack for Social Good.",
+        "date": "Jan 2022",
+        "img-file-name": "mentalhealthtracker.png",
+        "gif-file-name": "mentalhealthtracker.png",
+        "github-link": "none",
+        "demo-link": "https://devpost.com/software/blossom-8r5e1n?",
+        "featured": false
+    },
+    {
+        "name": "NAE Solar Calculator",
+        "skills": [
+            "MATLAB"
+        ],
+        "description": "A MATLAB application that recommends solar farm sizes based on house square footage, compares solar panel costs, and estimates time to offset expenses using public databases.",
+        "date": "Feb 2021 - Mar 2021",
+        "img-file-name": "solarcalculator.png",
+        "gif-file-name": "solarcalculator.png",
+        "github-link": "none",
+        "demo-link": "https://drive.google.com/file/d/1pCwmv_HmnbFAqeVJ3nPdbGf-7c0HxkPO/view",
+        "featured": false
     }
 ]
