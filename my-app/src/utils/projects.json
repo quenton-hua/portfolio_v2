@@ -1,5 +1,18 @@
 [
     {
+        "name": "EduCraft - AI Quiz Builder ",
+        "skills": [
+            "Next.js", "Node.js", "React.js", "TypeScript", "Materials UI", "Figma"
+        ],
+        "description": "A webapp designed to transform educational assessment. Leveraging the OpenAI API, the platform seamlessly parses content from PDFs, PPTX files, or plain text, generating tailored quizzes instantly to the user's specifications.",
+        "date": "Feb 2024",
+        "img-file-name": "educraft.png",
+        "gif-file-name": "educraftdemo.gif",
+        "github-link": "https://github.com/quenton-hua/UHCodeRed2024",
+        "demo-link": "https://devpost.com/software/educraft?ref_content=my-projects-tab&ref_feature=my_projects",
+        "featured": true  
+    },
+    {
         "name": "Personal Website V2",
         "skills": [
             "Figma",
@@ -29,22 +42,9 @@
         "description": "This was built for CSCE 331 as an improved website for ShareTea. This website allows customers and employees to place orders through an intuitive and accessibility friendly interface. Employees can check current stock of ingredients and adjust prices for menu items. Trends can also be viewed by the manager displaying order statistics such as popular combinations of boba drinks, sales reports, and more. ",
         "date": "Oct 2023 - Dec 2023",
         "img-file-name": "bobastorewebsite.png",
-        "gif-file-name": "bobastorewebsite.png",
+        "gif-file-name": "shareteademo.gif",
         "github-link": "https://github.com/csce-315-331-2023c/project-3-901_07",
         "demo-link": "https://sharetea-frontend.onrender.com/",
-        "featured": true
-    },
-    {
-        "name": "Aggie Linux Shell",
-        "skills": [
-            "C++"
-        ],
-        "description": "Custom UNIX shell, made using C++ . Is capable of running basic shell commmands (cd,ls,cat,etc), piping commands, creating background processes, and more. Allows for customizable prompt.",
-        "date": "Apr 2023",
-        "img-file-name": "aggieshell.png",
-        "gif-file-name": "aggieshell.png",
-        "github-link": "https://github.com/quenton-hua/Aggie-Shell",
-        "demo-link": "none",
         "featured": true
     },
     {
@@ -78,6 +78,22 @@
     }
     ,
     {
+        "name": "Personal Website V1.5",
+        "skills": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+
+        ],
+        "description": "Portfolio built for CSCE 315 using two different website styles.",
+        "date": "Sept 2023 - Oct 2023",
+        "img-file-name": "portfoliov1.5.png",
+        "gif-file-name": "portfoliov1.5.png",
+        "github-link": "https://github.com/csce-315-331-2023c/project-1-quenton-hua",
+        "demo-link": "https://people.tamu.edu/~quentonhua/",
+        "featured": false
+    },
+    {
         "name": "Reservation Slack Bot",
         "skills": [
             "Python", "Slack API"
@@ -89,6 +105,32 @@
         "gif-file-name": "hpeslackbot.jpg",
         "github-link": "none",
         "demo-link": "none",
+        "featured": false
+    },
+    {
+        "name": "Aggie Linux Shell",
+        "skills": [
+            "C++"
+        ],
+        "description": "Custom UNIX shell, made using C++ . Is capable of running basic shell commmands (cd,ls,cat,etc), piping commands, creating background processes, and more. Allows for customizable prompt.",
+        "date": "Apr 2023",
+        "img-file-name": "aggieshell.png",
+        "gif-file-name": "aggieshell.png",
+        "github-link": "https://github.com/quenton-hua/Aggie-Shell",
+        "demo-link": "none",
+        "featured": false
+    },
+    {
+        "name": "Personal Website V1",
+        "skills": [
+            "Javascript", "HTML", "CSS", "Bootstrap"
+        ],
+        "description": "First portfolio website built using vanilla JavaScript, HTML, and CSS.",
+        "date": "Dec 2022",
+        "img-file-name": "portfoliov1.png",
+        "gif-file-name": "portfoliov1.png",
+        "github-link": "https://github.com/quenton-hua/portfolio",
+        "demo-link": "https://quenton-hua.github.io/portfolio/",
         "featured": false
     },
     {
