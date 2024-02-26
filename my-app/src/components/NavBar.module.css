@@ -118,6 +118,15 @@
   background-color: var(--darkModeButtonBGColor);
 }
 
+.qhlogo{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .dark-mode-button:hover {
   background-color: var(--darkModeButtonHoverBGColor);
 }
@@ -130,21 +139,33 @@
 .nav-items-icons{
 }
 
+
+
+
+
 @media (max-width: 991.5px) {
-  .navbar .container {
-    padding: 1em;
+  .navbar {
+    padding: 5em;
     justify-content: space-between;
     
+    
+  }
+
+  .container{
+    margin-left: 2px;
   }
 
   .middle-section {
     background-color: var(--navbarDropDownBGColor);
+ 
   }
 
   .left-section {
-    order: -2;;
+    order: -2;
     justify-content: flex-start;
     width: min-content;
+    margin-left: 1em;
+    
   }
 
   .right-section {
@@ -161,5 +182,6 @@
 @media (max-width: 768px) {
   nav {
     padding: 0 1em 0 1em;
+    
   }
 }

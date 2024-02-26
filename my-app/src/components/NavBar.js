@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from "./NavBar.module.css"; // Import CSS module
+import QHLogo from "../assets/QHLogo";
 
 function NavBar(props) {
   const [scrolled, setScrolled] = useState(false);
@@ -64,8 +65,10 @@ function NavBar(props) {
           onClick={() => handleNavClick("home")}
           className={styles["left-section"]}
         >
-          QUENTON
-          <br /> HUA
+          {/* QUENTON
+          <br /> HUA */}
+          <QHLogo className={styles["qhlogo"]}/>
+          
         </Navbar.Brand>
 
         <Navbar.Toggle className={styles["nav-items-icons"]} onClick={() => props.setNavIconClicked(!props.navIconClicked)} />
