@@ -38,7 +38,7 @@
             "Three.js",
             "Plotly.js"
         ],
-        "description": "Responsible for developing the complete user interface and portions of the backend-to-frontend logic for a lightweight Electron.js React desktop application. This application can process over 100 GB of flight simulation data, presenting results through interactive 3D models and graphs using Three.js and Plotly.js, respectively, with potential applications for NASA engineers.",
+        "description": "Responsible for developing the complete user interface and portions of the backend-to-frontend logic for a lightweight Electron.js React desktop application. This application processes over 100 GB of flight simulation data, presenting results through interactive 3D models and graphs using Three.js and Plotly.js.",
         "date": "April 2024 - Current",
         "logo-file-name": "safelablogo",
         "company-color": "#500000"
