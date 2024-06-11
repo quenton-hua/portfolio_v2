@@ -23,10 +23,24 @@
             "TestRails",
             "PostgreSQL"
         ],
-        "description": "I led a project to enhance engineer efficiency and collaboration by creating a Slack bot. This bot streamlined our storage team's workflow by displaying live cluster info and enabling direct cluster reservations through Slack. Additionally, I developed over five Python test automation scripts using the TestRail API to ensure proper functionality of new software releases for the E1000 storage product. ",
+        "description": "Led a project to enhance engineer efficiency and collaboration by creating a Slack bot. This bot streamlined our storage team's workflow by displaying live cluster info and enabling direct cluster reservations through Slack. Additionally, I developed over five Python test automation scripts using the TestRail API to ensure proper functionality of new software releases for the E1000 storage product. ",
         "date": "Summer 2023",
         "logo-file-name": "HPELogo",
         "company-color": "#01A982"
+    },
+    {
+        "job-title": "Full Stack Developer",
+        "company": "SAFE Lab",
+        "skills": [
+            "Electron.js",
+            "React.js",
+            "Flask (Python)",
+            "Three.js",
+            "Plotly.js"
+        ],
+        "description": "Responsible for developing the complete user interface and portions of the backend-to-frontend logic for a lightweight desktop application. The application can process over 100 GB of flight simulation data, presenting results through interactive 3D models and graphs, with potential applications for NASA engineers.",
+        "date": "April 2024 - Current",
+        "logo-file-name": "safelablogo",
+        "company-color": "#500000"
     }
-
 ]

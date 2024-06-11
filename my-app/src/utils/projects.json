@@ -1,8 +1,31 @@
 [
     {
+        "name": "UDrink - Smart Water Bottle ",
+        "skills": [
+            "C++",
+            "React Native",
+            "TypeScript",
+            "HTML/CSS",
+            "Expo",
+            "Figma"
+        ],
+        "description": "An ecosystem that seamlessly integrates a smart water bottle equipped with multiple sensors, enabling effortless monitoring of water intake and daily consumption via Wi-Fi. The app provides valuable insights and detailed analysis of hydration habits, helping you stay on top of your water consumption goals.",
+        "date": "Feb 2024 - May 2024",
+        "img-file-name": "udrink.png",
+        "gif-file-name": "udrink.png",
+        "github-link": "https://github.com/quenton-hua/SmartWaterApp",
+        "demo-link": "https://www.linkedin.com/feed/update/urn:li:activity:7190174336538845184/",
+        "featured": true
+    },
+    {
         "name": "EduCraft - AI Quiz Builder ",
         "skills": [
-            "Next.js", "Node.js", "React.js", "TypeScript", "Materials UI", "Figma"
+            "Next.js",
+            "Node.js",
+            "React.js",
+            "TypeScript",
+            "Materials UI",
+            "Figma"
         ],
         "description": "A webapp designed to transform educational assessment. Leveraging the OpenAI API, the platform seamlessly parses content from PDFs, PPTX files, or plain text, generating tailored quizzes instantly to the user's specifications.",
         "date": "Feb 2024",
@@ -10,7 +33,7 @@
         "gif-file-name": "educraftdemo.gif",
         "github-link": "https://github.com/quenton-hua/UHCodeRed2024",
         "demo-link": "https://devpost.com/software/educraft?ref_content=my-projects-tab&ref_feature=my_projects",
-        "featured": true  
+        "featured": true
     },
     {
         "name": "Personal Website V2",
@@ -21,13 +44,13 @@
             "Node.js",
             "React.js"
         ],
-        "description": "Updated personal portfolio website from vanilla JavaScript to React.js . This portfolio highlights my top projects and past work experiences as a software engineer. The design was prototyped using Figma.",
+        "description": "Updated personal portfolio website from vanilla JavaScript to React.js, highlighting my top projects and past work experiences. ",
         "date": "Dec 2023",
         "img-file-name": "personalwebsitev2.png",
         "gif-file-name": "personalwebsitev2.png",
         "github-link": "https://github.com/quenton-hua/portfolio_v2",
         "demo-link": "https://www.quentonhua.com",
-        "featured": true
+        "featured": false
     },
     {
         "name": "Boba Store Website",
@@ -57,16 +80,14 @@
         "img-file-name": "smartmirror.jpg",
         "gif-file-name": "smartmirror.jpg",
         "github-link": "none",
-        "demo-link": "https://drive.google.com/file/d/1sMuhx70BALazprvVxWkmHY2gmKjrg7cC/view?usp=sharing",
+        "demo-link": "none",
         "featured": false
-    }
-    ,
+    },
     {
         "name": "Point of Sale Application",
         "skills": [
             "Java Swing",
             "PostgreSQL"
-
         ],
         "description": "A point of sale application that enables employees to manage customer orders, update menu prices, track inventory stock, add new items, and allows managers to access business statistics.",
         "date": "Sept 2023 - Oct 2023",
@@ -75,15 +96,13 @@
         "github-link": "https://github.com/csce-315-331-2023c/project-2-901_07",
         "demo-link": "none",
         "featured": false
-    }
-    ,
+    },
     {
         "name": "Personal Website V1.5",
         "skills": [
             "JavaScript",
             "HTML",
             "CSS"
-
         ],
         "description": "Portfolio built for CSCE 315 using two different website styles.",
         "date": "Sept 2023 - Oct 2023",
@@ -96,8 +115,8 @@
     {
         "name": "Reservation Slack Bot",
         "skills": [
-            "Python", "Slack API"
-
+            "Python",
+            "Slack API"
         ],
         "description": "A Slack bot for Hewlett Packard Enterprise's ClustorStor team, streamlining storage device reservation and statistics viewing for over +10 engineers, using Python, Slack API, and an internal inventory database.",
         "date": "Jul 2023 - Aug 2023",
@@ -123,7 +142,10 @@
     {
         "name": "Personal Website V1",
         "skills": [
-            "Javascript", "HTML", "CSS", "Bootstrap"
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Bootstrap"
         ],
         "description": "First portfolio website built using vanilla JavaScript, HTML, and CSS.",
         "date": "Dec 2022",
@@ -136,7 +158,9 @@
     {
         "name": "Mental Health Tracker",
         "skills": [
-            "JavaScript", "HTML", "CSS"
+            "JavaScript",
+            "HTML",
+            "CSS"
         ],
         "description": "Website enabling users to log their mood through a selection of 5 emoticons (happy to sad), tracking trends in their selections. This project won Tamuhack 2022's Best Hack for Social Good.",
         "date": "Jan 2022",
